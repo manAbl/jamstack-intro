@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "gatsby develop"
+    "dev": "gatsby develop",
+    "prod": "gatsby build && git add . && git commit -m 'prod files'"
   },
   "repository": {
     "type": "git",
