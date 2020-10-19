@@ -1,0 +1,54 @@
+.item {
+  color: #333;
+  font-size: 1em;
+  line-height: 1.48;
+  margin-bottom: 1rem;
+}
+
+.form {
+  width: 80vw;
+  margin: 0 auto;
+  border-radius: 12px;
+  padding: 2rem 1.2rem;
+  border: 1px solid rgb(242, 242, 242);
+}
+
+.label {
+  color: #5e5e5e;
+  display: flex;
+  flex-basis: 100%;
+  flex-flow: column;
+  font-size: 0.82rem;
+  letter-spacing: 0.1em;
+}
+
+.label input {
+  height: 1.8rem;
+  margin-top: 0.2rem;
+  border-radius: 2px;
+  padding: 0 0.62rem;
+  border: 1px solid #ccc;
+}
+
+.label textarea {
+  border: 1px solid #ccc;
+  margin-top: 0.2rem;
+  border-radius: 2px;
+  padding: 0.62rem;
+}
+
+.button {
+  margin: 0;
+  border: none;
+  width: 7.54rem;
+  padding: 0.72rem;
+  border-radius: 20px;
+  color: whitesmoke;
+  background-color: darkcyan;
+  transition: background-color 32ms ease-in;
+}
+
+.button:hover {
+  cursor: pointer;
+  background-color: teal;
+}

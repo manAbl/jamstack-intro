@@ -1,0 +1,26 @@
+{
+  "name": "jamstack-intro",
+  "version": "1.0.0",
+  "description": "This is the code for a Frontend Masters workshop. In this workshop, we’ll learn what the JAMstack is, what it’s capable of, and how we can use it to build full-featured apps with less complexity and overhead.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "gatsby develop"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/manAbl/jamstack-intro.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/manAbl/jamstack-intro/issues"
+  },
+  "homepage": "https://github.com/manAbl/jamstack-intro#readme",
+  "dependencies": {
+    "gatsby": "^2.24.80",
+    "react": "^16.14.0",
+    "react-dom": "^16.14.0"
+  }
+}
